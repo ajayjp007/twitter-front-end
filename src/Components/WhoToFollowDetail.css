@@ -1,0 +1,34 @@
+.follow-container-details{
+    display: flex;
+    background-color: #F8F8F8;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+}
+.follow-container-details:hover{
+    background-color: #E8E8E8;
+}
+.usr-details{
+    display: grid;
+}
+#usr-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.usr-name-bld{
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: -10px;
+}
+.usr-name-light{
+    color: lightslategrey;
+    margin-left: -15px;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+}
+h1 {
+    margin-top: 0px;
+    font-size: 120px;
+}
+.form {
+    display: grid;
+}
+.item1 {
+    width: 50%;
+    background-color: skyblue;
+    background-image: url("https://images.unsplash.com/photo-1595287137144-cf60a87f39d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    margin-right: 50px;
+    height: max-content;
+}
+.item2{ 
+    width: 50%;
+}
+.input-box1 {
+    width: 400px;
+    height: 35px;
+    border: 0px white;
+    border-bottom: 2px solid black;
+    letter-spacing: 1px;
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:50px;
+    background-color: white;
+}
+.input-box1:focus{
+    outline: none;
+}
+.input-box2:focus{
+    outline: none;
+}
+.input-box2 {
+    width: 400px;
+    height: 35px;
+    border: 0px white;
+    border-bottom: 2px solid black;
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left:50px;
+    background-color: white;
+}
+.label {
+    font-size: larger;
+    margin-left:50px;
+    font-weight: 500;
+}
+.btn {
+    width: 400px;
+    height: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 0px;
+    color: black;
+    text-transform: uppercase;
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: rgba(88, 88, 88, 0.35) 0px 5px 15px;
+    background-color: #E8E8E8;
+    color: rgb(88, 195, 238);
+}
+#logo {
+    height: 100px;
+}
+
+.sign-up{
+    margin-bottom: 5px;
+    margin-left: 120px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,83 @@
+.card-container{
+    padding-left: 100px;
+    border: 1px solid #e0e0e7;
+}
+.user-name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.tweets{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-right: 25px;
+}
+.like-share{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.username{
+    font-weight: 300;
+    color: lightslategray;
+    font-size: small;
+    text-transform: lowercase;
+}
+.btnDot{
+    margin-left: 400px;
+    border-radius: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    border: 0px white;
+    font-size: 20px;
+}
+.btnDot:hover{
+    background-color: #e0e0e7;
+    cursor: pointer;
+}
+.image-container{
+    height: auto
+    
+}
+.some-image{
+   min-width: 470px;
+   max-width: 570;
+   max-height: 500px;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+.icon{
+   cursor: pointer;
+   font-size: 20px;
+}
+.icon:hover{
+    color: #00BFFF;
+    border-radius: 10px;
+}
+.icon-like{
+    cursor: pointer;
+}
+.icon-like:hover{
+    color: red;
+}
+.icon-like:active{
+    transform: scale(1.2);
+}
+.icon:active{
+    transform: scale(1.2);
+}
+.twitter-tweetUser{
+    display: flex;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+.user-picture{
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 60px;
+    margin-left: -100px;
+    cursor: pointer;
+}

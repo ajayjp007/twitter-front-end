@@ -1,0 +1,43 @@
+.add-tweet{
+    border: 0px white;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 600px;
+    font-size: large;
+}
+.add-tweet:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.submit-tweet{
+    margin-top: 15px;
+    margin-left: 590px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00BFFF;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 100px;
+    border: #00BFFF;
+}
+.submit-tweet:hover{
+    background-color: #4682B4;
+}
+.profile-picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.profile-container{
+    display: flex;
+}
+.postingTweet{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:#00BFFF;
+}
